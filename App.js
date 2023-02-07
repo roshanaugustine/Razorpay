@@ -12,15 +12,15 @@ import RazorpayCheckout from 'react-native-razorpay';
 
 const App = () => {
   const options = {
-    description: 'One Plus 7T',
+    description: 'Nikon d5300',
     currency: 'INR',
-    key: 'rzp_test_k8u92HOj1nm4dO',
-    amount: '900.0',
+    key: 'rzp_test_Ksp49tXKqw4zmw',
+    amount: '800.0',
 
     prefill: {
-      email: 'melbinmichael555@gmail.com',
-      contact: '+919746759441',
-      name: 'Melbin Michael Zavier',
+      email: 'roshanaugustine123@gmail.com',
+      contact: '+918281555428',
+      name: 'Roshan Augustine',
     },
     theme: {
       color: '#00082',
@@ -42,16 +42,16 @@ const App = () => {
       <View style={styles.cardContainer}>
         <Image
           source={{
-            uri: 'https://5.imimg.com/data5/SELLER/Default/2022/3/XW/BW/XG/149641071/new-oneplus-7t-8gb-128gb-glacier-blue-500x500.jpg',
+            uri: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT07DAXptCm922fqsmRagSOB_0wzO4Dbfs9Xlbdfqv9V7__zdQcaXqib5JneiAMgJmSNPn2ZlHPZ-QCgWwTEfoEy6-_iuUgtGQo6chOUXqzcdOUbg-9FONW_7NGZ9HW&usqp=CAE',
           }}
           resizeMode="contain"
           style={styles.image}
         />
         <View style={styles.description}>
-          <Text style={styles.name}>One Plus 7t </Text>
-          <Text style={styles.rate}>$420.00</Text>
-          <Text style={{marginTop: 10, fontSize: 15, color: 'white'}}>
-            Always One Plus
+          <Text style={styles.name}>Nikon d5300</Text>
+          <Text style={styles.rate}>$549.00</Text>
+          <Text style={{marginTop: 10, fontSize: 15, color: 'black'}}>
+            The best choice
           </Text>
         </View>
       </View>
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'white',
+    backgroundColor: 'black',
   },
   cardContainer: {
     width: '90%',
@@ -98,12 +98,12 @@ const styles = StyleSheet.create({
   },
   name: {
     fontSize: 23,
-    color: 'white',
+    color: 'black',
   },
   rate: {
     fontSize: 30,
     marginTop: 15,
-    color: 'white',
+    color: 'black',
   },
   btnBuy: {
     width: '90%',
@@ -116,6 +116,6 @@ const styles = StyleSheet.create({
   },
   btnText: {
     fontSize: 20,
-    color: 'white',
+    color: 'black',
   },
 });
